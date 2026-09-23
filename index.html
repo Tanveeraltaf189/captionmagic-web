@@ -10,7 +10,7 @@
     <script>
       (function () {
         try {
-          var stored = localStorage.getItem('tscaps:theme');
+          var stored = localStorage.getItem('Caption Magic:theme');
           var theme = stored === 'light' || stored === 'dark'
             ? stored
             : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
